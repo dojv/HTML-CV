@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <div class="left-banner">
+            <div class="picture-container">
+                <div class="picture"><img src="assets/img/profilepic2.png" alt="cookiemonster"></div>
+            </div>
+            <div class="about-container">
+                <h1>ABOUT ME</h1>
+                <br>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis recusandae blanditiis quae amet rem animi rerum eligendi quisquam numquam! Delectus, tenetur laudantium culpa provident voluptates aliquam? Expedita inventore accusantium libero. 
+                    <br><br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo magnam, vel quidem ab minus excepturi harum mollitia voluptates nulla?
+                </p>
+                <br><br><hr><br><br>
+                <h1>SOCIAL MEDIA</h1>
+                <p>
+                    <br>
+                    Lorem ipsum dolor sit amet.
+                    <br><br>
+                    adipisicing elit. Officiis recusandae.
+                    <br><br>
+                    At illo magnam, vel!
+                </p>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="identity-container">
+                <div class="name">
+                    <h1 class="firstname">FIRSTNAME</h1>
+                    <h1 class="lastname">LASTNAME</h1>
+                </div>
+                <div class="information-container">
+                    <div class="city">
+                        <p>Lorem ipsum</p><br>
+                        <img src="assets/img/location_icon.png" alt="location icon">
+                    </div>
+                    <div class="phone">
+                        <p>+46700 000000</p><br>
+                        <img src="assets/img/phone_icon.png" alt="phone icon">
+                    </div>
+                    <div class="email">
+                        <p>example@example.com</p><br>
+                        <img src="assets/img/email_icon.png" alt="email icon">
+                    </div>
+                </div>
+            </div>
+            <br><br><hr><br>
+
+            
+            <div class="button-wrapper">
+                <h2>WORK EXPERIENCE</h2>
+                <button class="button" onclick="LoadWorkData()">Expand</button>
+                <button class="button" onclick="RemoveWorkData()">Retract</button>
+            </div>
+            <div id="work-data"></div>
+
+            <br><hr><br>
+
+            <div class="button-wrapper">
+                <h2>EDUCATION</h2>
+                <button class="button" onclick="LoadEducationData()">Expand</button>
+                <button class="button" onclick="RemoveEducationData()">Retract</button>
+            </div>
+            <div id="education-data"></div>
+
+            <br><hr><br>
+
+            <div class="padding"></div>
+        </div>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
